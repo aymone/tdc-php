@@ -14,7 +14,7 @@
     "autoload": {
         "psr-4": {
             "Tdc\\": "src",
-            "Tdc\\NewFeatures\\": "src/NewFeatures"
+            "Tdc\\Changes\\": "src/Changes"
         }
     }
 }

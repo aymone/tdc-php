@@ -12,8 +12,6 @@ class Helpers {
      * format date to br
      */
     public function dateToBr($date) {
-        $toBr = [];
-        list($toBr[], $toBr[], $toBr[]) = explode("-", $date);
-        return implode("/", $toBr);
+        return implode("/", array_reverse(explode("-", $date)));
     }
 }

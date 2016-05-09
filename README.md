@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/aymone/tdc-php.svg?branch=master)](https://travis-ci.org/aymone/tdc-php)
+[![Build Status](https://travis-ci.org/aymone/tdc-php.svg?branch=php-compatible)](https://travis-ci.org/aymone/tdc-php)
 
 # TDC PHP
 

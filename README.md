@@ -1,4 +1,11 @@
 [![Build Status](https://travis-ci.org/aymone/tdc-php.svg?branch=master)](https://travis-ci.org/aymone/tdc-php)
 
-# tdc-php
-tdc-php examples
+# TDC PHP
+
+PHP7 Novidades, incompatibilidades e a importância de testes
+
+> Objective: Break code on php7
+
+Códigos com pouco ou nenhum sentido lógico, podendo reproduzir a mente de um programador.
+
+Os testes irão passar no php 5.6, mas não no 7.

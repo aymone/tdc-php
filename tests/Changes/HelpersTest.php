@@ -14,14 +14,21 @@ class ChangesTest extends PHPUnit
         $this->Helpers = new Helpers;
     }
     
-    /**
-     * 
-     */
     public function testdateToBr()
     {
         $date = "2007-01-30";
         $result = $this->Helpers->dateToBr($date);
         $this->assertEquals("30/01/2007", $result);
+    }
+    
+    public function testBreakWords() {
+        $out = ["o", "l", "a"];
+        $this->assertEquals($out, $this->Helpers->breakWord("ola"));
+    }
+    
+    public function testGetString() {
+        $out = "abcdef";
+        $this->assertEquals($out, $this->Helpers->getString());
     }
 
 } 

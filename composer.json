@@ -13,8 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tdc\\": "src",
-            "Tdc\\Changes\\": "src/Changes"
+            "Tdc\\": "src"
         }
     }
 }
